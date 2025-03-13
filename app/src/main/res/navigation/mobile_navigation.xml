@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_bookkeeping">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.bookkeeping.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_bookkeeping"
+        android:name="com.example.bookkeeping.ui.Bookkeeping.BookkeepingFragment"
+        android:label="@string/title_bookkeeping"
+        tools:layout="@layout/fragment_bookkeeping" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.bookkeeping.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_chart"
+        android:name="com.example.bookkeeping.ui.chart.ChartFragment"
+        android:label="@string/title_chart"
+        tools:layout="@layout/fragment_chart" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.bookkeeping.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_mine"
+        android:name="com.example.bookkeeping.ui.notifications.MineFragment"
+        android:label="@string/title_mine"
+        tools:layout="@layout/fragment_mine" />
 </navigation>
