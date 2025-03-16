@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_bookkeeping"
-        android:name="com.example.bookkeeping.ui.Bookkeeping.BookkeepingFragment"
+        android:name="com.example.bookkeeping.ui.bookkeeping.BookkeepingFragment"
         android:label="@string/title_bookkeeping"
         tools:layout="@layout/fragment_bookkeeping" />
 
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/navigation_mine"
-        android:name="com.example.bookkeeping.ui.notifications.MineFragment"
+        android:name="com.example.bookkeeping.ui.mine.MineFragment"
         android:label="@string/title_mine"
         tools:layout="@layout/fragment_mine" />
 </navigation>

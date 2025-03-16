@@ -1,13 +1,13 @@
-package com.example.bookkeeping.ui.Bookkeeping
+package com.example.bookkeeping.ui.mine
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class BookkeepingViewModel : ViewModel() {
+class MineViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = "This is notifications Fragment"
     }
     val text: LiveData<String> = _text
 }

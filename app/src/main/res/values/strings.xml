@@ -3,4 +3,11 @@
     <string name="title_bookkeeping">记账</string>
     <string name="title_chart">图表</string>
     <string name="title_mine">我的</string>
+
+    <string name="month_expenses">本月支出:</string>
+    <string name="month_earning">本月收入:</string>
+    <string name="month_surplus">本月结余:</string>
+
+    <string name="make_a_note">记一笔</string>
+    <string name="recent_record">近日账单</string>
 </resources>

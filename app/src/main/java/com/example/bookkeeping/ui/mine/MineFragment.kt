@@ -1,4 +1,4 @@
-package com.example.bookkeeping.ui.notifications
+package com.example.bookkeeping.ui.mine
 
 import android.os.Bundle
 import android.view.LayoutInflater
